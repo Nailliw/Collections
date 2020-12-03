@@ -1,6 +1,6 @@
 import './styles.css';
 import CardTemplate from '../Card';
-import { List, Button } from 'antd';
+import { List } from 'antd';
 const FavoriteCharacters = ({ favorites, setFavorites }) => {
   return (
     <List

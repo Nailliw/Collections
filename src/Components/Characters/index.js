@@ -1,13 +1,8 @@
 import './styles.css';
 import CardTemplate from '../Card';
-import { List, Button } from 'antd';
+import { List } from 'antd';
 
 const Characters = ({ characters, setFavorites, favorites }) => {
-  const handleAddFavorite = (char) => {
-    const alreadyExist = favorites.find((element) => element.id === char.id);
-    if (alreadyExist) return;
-    setFavorites([...favorites, char]);
-  };
   return (
     <List
       grid={{

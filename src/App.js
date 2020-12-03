@@ -1,5 +1,5 @@
 import './App.css';
-import { Link, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Characters from './Components/Characters';
 import FavoriteCharacters from './Components/FavoriteCharacters';
 import HeaderLinks from './Components/HeaderLinks';
