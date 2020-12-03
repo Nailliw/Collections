@@ -34,6 +34,7 @@ const CardTemplate = ({
         bordered={true}
         style={{ width: 250 }}
         title={item.name}
+        cover={<img src={item.image} height="250" />}
       >
         <Meta
           avatar={<Avatar src={item.image} />}
